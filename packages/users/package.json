@@ -1,4 +1,7 @@
 {
   "name": "@boredom/users",
-  "packageManager": "yarn@4.1.0"
+  "packageManager": "yarn@4.1.0",
+  "scripts": {
+    "lint": "eslint ."
+  }
 }
