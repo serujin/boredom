@@ -12,16 +12,11 @@ const RAW_RUNTIME_STATE =
     {\
       "name": "root-workspace-0b6124",\
       "reference": "workspace:."\
-    },\
-    {\
-      "name": "@boredom/users",\
-      "reference": "workspace:packages/users"\
     }\
   ],\
   "enableTopLevelFallback": true,\
   "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
   "fallbackExclusionList": [\
-    ["@boredom/users", ["workspace:packages/users"]],\
     ["root-workspace-0b6124", ["workspace:."]]\
   ],\
   "fallbackPool": [\
@@ -32,15 +27,6 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
-        ],\
-        "linkType": "SOFT"\
-      }]\
-    ]],\
-    ["@boredom/users", [\
-      ["workspace:packages/users", {\
-        "packageLocation": "./packages/users/",\
-        "packageDependencies": [\
-          ["@boredom/users", "workspace:packages/users"]\
         ],\
         "linkType": "SOFT"\
       }]\
