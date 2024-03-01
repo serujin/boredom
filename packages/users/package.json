@@ -2,6 +2,8 @@
   "name": "@boredom/users",
   "packageManager": "yarn@4.1.0",
   "scripts": {
+    "format": "prettier .",
+    "format:fix": "prettier . --write",
     "lint": "eslint ."
   },
   "dependencies": {
