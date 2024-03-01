@@ -5,6 +5,12 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
+"@boredom/users@workspace:packages/users":
+  version: 0.0.0-use.local
+  resolution: "@boredom/users@workspace:packages/users"
+  languageName: unknown
+  linkType: soft
+
 "@esbuild/aix-ppc64@npm:0.19.12":
   version: 0.19.12
   resolution: "@esbuild/aix-ppc64@npm:0.19.12"
