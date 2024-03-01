@@ -15,6 +15,9 @@ __metadata:
 "@boredom/users@workspace:packages/users":
   version: 0.0.0-use.local
   resolution: "@boredom/users@workspace:packages/users"
+  dependencies:
+    "@typescript-eslint/eslint-plugin": "npm:^7.1.0"
+    eslint-config-custom: "workspace:^"
   languageName: unknown
   linkType: soft
 
@@ -1056,7 +1059,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-custom@workspace:packages/eslint-config-custom":
+"eslint-config-custom@workspace:^, eslint-config-custom@workspace:packages/eslint-config-custom":
   version: 0.0.0-use.local
   resolution: "eslint-config-custom@workspace:packages/eslint-config-custom"
   dependencies:
