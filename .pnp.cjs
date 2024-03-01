@@ -14,6 +14,10 @@ const RAW_RUNTIME_STATE =
       "reference": "workspace:."\
     },\
     {\
+      "name": "eslint-config-custom",\
+      "reference": "workspace:packages/eslint-config-custom"\
+    },\
+    {\
       "name": "@boredom/users",\
       "reference": "workspace:packages/users"\
     }\
@@ -22,6 +26,7 @@ const RAW_RUNTIME_STATE =
   "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
   "fallbackExclusionList": [\
     ["@boredom/users", ["workspace:packages/users"]],\
+    ["eslint-config-custom", ["workspace:packages/eslint-config-custom"]],\
     ["root-workspace-0b6124", ["workspace:."]]\
   ],\
   "fallbackPool": [\
@@ -699,6 +704,28 @@ const RAW_RUNTIME_STATE =
           ["debug", "virtual:1ff4b5f90832ba0a9c93ba1223af226e44ba70c1126a3740d93562b97bc36544e896a5e95908196f7458713e6a6089a34bfc67362fc6df7fa093bd06c878be47#npm:4.3.4"],\
           ["eslint", "npm:8.57.0"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
+        ],\
+        "packagePeers": [\
+          "@types/eslint",\
+          "@types/typescript",\
+          "eslint",\
+          "typescript"\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["virtual:f7bc41586b68b5179d26bce3bfb89ba68358f8cd7c2ddff4083d94b6829a704acc2424da9379676891d28c060e6d7ef24661ff4a113dbb2daf852983923aee3a#npm:7.1.0", {\
+        "packageLocation": "./.yarn/__virtual__/@typescript-eslint-parser-virtual-65bcf1caa4/4/C:/Users/sergi/AppData/Local/Yarn/Berry/cache/@typescript-eslint-parser-npm-7.1.0-4862dd3703-10c0.zip/node_modules/@typescript-eslint/parser/",\
+        "packageDependencies": [\
+          ["@typescript-eslint/parser", "virtual:f7bc41586b68b5179d26bce3bfb89ba68358f8cd7c2ddff4083d94b6829a704acc2424da9379676891d28c060e6d7ef24661ff4a113dbb2daf852983923aee3a#npm:7.1.0"],\
+          ["@types/eslint", null],\
+          ["@types/typescript", null],\
+          ["@typescript-eslint/scope-manager", "npm:7.1.0"],\
+          ["@typescript-eslint/types", "npm:7.1.0"],\
+          ["@typescript-eslint/typescript-estree", "virtual:2f797f97b6536620a6bd90e5e45f120d09972c1105f6305b0468871e42379c56b7bdfd283ee3be397fce504cfd8ac38041d83689aabd41e01dd8cd30a120e3d1#npm:7.1.0"],\
+          ["@typescript-eslint/visitor-keys", "npm:7.1.0"],\
+          ["debug", "virtual:1ff4b5f90832ba0a9c93ba1223af226e44ba70c1126a3740d93562b97bc36544e896a5e95908196f7458713e6a6089a34bfc67362fc6df7fa093bd06c878be47#npm:4.3.4"],\
+          ["eslint", null],\
+          ["typescript", null]\
         ],\
         "packagePeers": [\
           "@types/eslint",\
@@ -1399,6 +1426,16 @@ const RAW_RUNTIME_STATE =
           ["text-table", "npm:0.2.0"]\
         ],\
         "linkType": "HARD"\
+      }]\
+    ]],\
+    ["eslint-config-custom", [\
+      ["workspace:packages/eslint-config-custom", {\
+        "packageLocation": "./packages/eslint-config-custom/",\
+        "packageDependencies": [\
+          ["eslint-config-custom", "workspace:packages/eslint-config-custom"],\
+          ["@typescript-eslint/parser", "virtual:f7bc41586b68b5179d26bce3bfb89ba68358f8cd7c2ddff4083d94b6829a704acc2424da9379676891d28c060e6d7ef24661ff4a113dbb2daf852983923aee3a#npm:7.1.0"]\
+        ],\
+        "linkType": "SOFT"\
       }]\
     ]],\
     ["eslint-scope", [\
