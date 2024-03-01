@@ -1,6 +1,11 @@
 {
   "name": "eslint-config-custom",
   "packageManager": "yarn@4.1.0",
+  "scripts": {
+    "format": "prettier .",
+    "format:fix": "prettier . --write",
+    "lint": "eslint ."
+  },
   "devDependencies": {
     "@typescript-eslint/parser": "^7.1.0",
     "eslint-config-prettier": "^9.1.0"
