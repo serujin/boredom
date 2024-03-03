@@ -727,6 +727,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"base@workspace:packages/base":
+  version: 0.0.0-use.local
+  resolution: "base@workspace:packages/base"
+  dependencies:
+    "@typescript-eslint/eslint-plugin": "npm:^7.1.0"
+    eslint-config-custom: "workspace:^"
+  languageName: unknown
+  linkType: soft
+
 "binary-extensions@npm:^2.0.0":
   version: 2.2.0
   resolution: "binary-extensions@npm:2.2.0"
